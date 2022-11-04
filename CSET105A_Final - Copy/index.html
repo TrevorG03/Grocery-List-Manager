@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This was difficult</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <button onclick="addItem()">Add an item</button>
+    <button onclick="viewPurchased()">View purchased</button>
+    <button onclick="viewUnpurchased()">View unpurchased</button>
+    <button onclick="clearlistViewer()">Clear list viewer</button>
+
+    <div id="listHolderDiv">
+        <div id="mainListDiv">
+            <h2>Grocery List</h1>
+            <ul id="mainList"></ul>
+        </div>
+        <div id="listviewerDiv">
+            <h2>List Viewer</h1>
+            <ul id="listViewer"></ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

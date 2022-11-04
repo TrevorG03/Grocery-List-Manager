@@ -1,0 +1,55 @@
+#mainListDiv {
+    float: left;
+}
+
+#listviewerDiv {
+    float: right;
+}
+
+#listHolderDiv {
+    margin-left: 4in;
+    margin-right: 4in;
+
+}
+
+button {
+    font-size: 15px;
+}
+
+
+
+
+/* 
+
+
+#mainListDiv {
+    float: left;
+    
+}
+
+#listviewerDiv {
+    float: right;
+}
+
+#listHolderDiv {
+    margin-left: 4in;
+    margin-right: 4in;
+
+}
+
+button {
+    font-size: 20px;
+    margin: .5in;
+} */
+
+
+body {
+    margin: 1in;
+    color: gold;
+} 
+html{
+        background-attachment: fixed;
+        background-image: url('https://media.blogto.com/articles/20191130-SummerhillMarket10.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70');
+        background-repeat: no-repeat;
+        background-position: center center;
+}
